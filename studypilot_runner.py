@@ -9,7 +9,7 @@ from pathlib import Path
 
 def main() -> None:
     folder = Path(__file__).resolve().parent
-    version = "v010 2"
+    version = "NEW_v020_23KB"
     archive = folder / f"studypilot_{version}.pyz"
     if not archive.is_file():
         matches = sorted(folder.glob(f"*{version}.pyz"))
